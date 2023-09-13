@@ -8,7 +8,7 @@ dotEnv.config();
 const app = express();
 const db = require('./config/database');
 const { PORT, MONGODB_URL, SESSION_SECRET_KEY } = process.env;
-const port = PORT || 5000;
+const port = PORT || 8080;
 
 const expressLayouts = require('express-ejs-layouts');
 app.use(express.static('./assets'));
