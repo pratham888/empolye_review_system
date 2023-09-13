@@ -5,7 +5,7 @@ dotEnv.config();
 // const url=process.env.MONGODB_URL;
 // // Connection to mongodb.
 // mongoose.connect("mongodb+srv://kfaizan0496:049632@cluster0.w6qbmlr.mongodb.net/?retryWrites=true&w=majority"); 
-mongoose.connect('mongodb://127.0.0.1/emplyee_review');
+mongoose.connect('mongodb://localhost:27017');
 //const db=mongoose.connection;
 
 // db store the connection
