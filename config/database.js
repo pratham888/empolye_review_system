@@ -3,7 +3,7 @@ const dotEnv = require('dotenv');
 dotEnv.config();
 
 // const url=process.env.MONGODB_URL;
-mongoose.connect('mongodb://127.0.0.1/emplyee_review');
+mongoose.connect('mongodb+srv://Pratham:Pratham123@cluster0.c87sf5o.mongodb.net/empolye_review');
 
 //mongoose.connect('mongodb://localhost:27017');
 //const db=mongoose.connection;
